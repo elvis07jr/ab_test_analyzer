@@ -25,7 +25,7 @@ if uploaded_file is not None:
 
     # --- SQL Analysis ---
     st.write("### A/B Test Metrics")
-    with open("../sql/queries.sql", "r") as f:
+    with open("sql/queries.sql", "r") as f:
         sql_query = f.read()
 
     # Create an in-memory DuckDB database
